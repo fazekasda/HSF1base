@@ -1,0 +1,1238 @@
+species combination	targets
+human	3713
+worm	192
+fly	43
+mouse	3323
+rat	233
+yeast	27
+human,worm	79
+human,fly	12
+human,mouse	1678
+human,rat	111
+human,yeast	11
+worm,human	79
+worm,fly	1
+worm,mouse	90
+worm,rat	5
+worm,yeast	5
+fly,human	12
+fly,worm	1
+fly,mouse	15
+fly,rat	0
+fly,yeast	0
+mouse,human	1678
+mouse,worm	90
+mouse,fly	15
+mouse,rat	83
+mouse,yeast	8
+rat,human	111
+rat,worm	5
+rat,fly	0
+rat,mouse	83
+rat,yeast	0
+yeast,human	11
+yeast,worm	5
+yeast,fly	0
+yeast,mouse	8
+yeast,rat	0
+human,worm,fly	1
+human,worm,mouse	55
+human,worm,rat	5
+human,worm,yeast	1
+human,fly,worm	1
+human,fly,mouse	15
+human,fly,rat	1
+human,fly,yeast	0
+human,mouse,worm	55
+human,mouse,fly	15
+human,mouse,rat	58
+human,mouse,yeast	9
+human,rat,worm	5
+human,rat,fly	1
+human,rat,mouse	58
+human,rat,yeast	2
+human,yeast,worm	1
+human,yeast,fly	0
+human,yeast,mouse	9
+human,yeast,rat	2
+worm,human,fly	1
+worm,human,mouse	55
+worm,human,rat	5
+worm,human,yeast	1
+worm,fly,human	1
+worm,fly,mouse	2
+worm,fly,rat	0
+worm,fly,yeast	0
+worm,mouse,human	55
+worm,mouse,fly	2
+worm,mouse,rat	3
+worm,mouse,yeast	1
+worm,rat,human	5
+worm,rat,fly	0
+worm,rat,mouse	3
+worm,rat,yeast	0
+worm,yeast,human	1
+worm,yeast,fly	0
+worm,yeast,mouse	1
+worm,yeast,rat	0
+fly,human,worm	1
+fly,human,mouse	15
+fly,human,rat	1
+fly,human,yeast	0
+fly,worm,human	1
+fly,worm,mouse	2
+fly,worm,rat	0
+fly,worm,yeast	0
+fly,mouse,human	15
+fly,mouse,worm	2
+fly,mouse,rat	1
+fly,mouse,yeast	0
+fly,rat,human	1
+fly,rat,worm	0
+fly,rat,mouse	1
+fly,rat,yeast	0
+fly,yeast,human	0
+fly,yeast,worm	0
+fly,yeast,mouse	0
+fly,yeast,rat	0
+mouse,human,worm	55
+mouse,human,fly	15
+mouse,human,rat	58
+mouse,human,yeast	9
+mouse,worm,human	55
+mouse,worm,fly	2
+mouse,worm,rat	3
+mouse,worm,yeast	1
+mouse,fly,human	15
+mouse,fly,worm	2
+mouse,fly,rat	1
+mouse,fly,yeast	0
+mouse,rat,human	58
+mouse,rat,worm	3
+mouse,rat,fly	1
+mouse,rat,yeast	0
+mouse,yeast,human	9
+mouse,yeast,worm	1
+mouse,yeast,fly	0
+mouse,yeast,rat	0
+rat,human,worm	5
+rat,human,fly	1
+rat,human,mouse	58
+rat,human,yeast	2
+rat,worm,human	5
+rat,worm,fly	0
+rat,worm,mouse	3
+rat,worm,yeast	0
+rat,fly,human	1
+rat,fly,worm	0
+rat,fly,mouse	1
+rat,fly,yeast	0
+rat,mouse,human	58
+rat,mouse,worm	3
+rat,mouse,fly	1
+rat,mouse,yeast	0
+rat,yeast,human	2
+rat,yeast,worm	0
+rat,yeast,fly	0
+rat,yeast,mouse	0
+yeast,human,worm	1
+yeast,human,fly	0
+yeast,human,mouse	9
+yeast,human,rat	2
+yeast,worm,human	1
+yeast,worm,fly	0
+yeast,worm,mouse	1
+yeast,worm,rat	0
+yeast,fly,human	0
+yeast,fly,worm	0
+yeast,fly,mouse	0
+yeast,fly,rat	0
+yeast,mouse,human	9
+yeast,mouse,worm	1
+yeast,mouse,fly	0
+yeast,mouse,rat	0
+yeast,rat,human	2
+yeast,rat,worm	0
+yeast,rat,fly	0
+yeast,rat,mouse	0
+human,worm,fly,mouse	4
+human,worm,fly,rat	1
+human,worm,fly,yeast	0
+human,worm,mouse,fly	4
+human,worm,mouse,rat	2
+human,worm,mouse,yeast	2
+human,worm,rat,fly	1
+human,worm,rat,mouse	2
+human,worm,rat,yeast	0
+human,worm,yeast,fly	0
+human,worm,yeast,mouse	2
+human,worm,yeast,rat	0
+human,fly,worm,mouse	4
+human,fly,worm,rat	1
+human,fly,worm,yeast	0
+human,fly,mouse,worm	4
+human,fly,mouse,rat	4
+human,fly,mouse,yeast	2
+human,fly,rat,worm	1
+human,fly,rat,mouse	4
+human,fly,rat,yeast	0
+human,fly,yeast,worm	0
+human,fly,yeast,mouse	2
+human,fly,yeast,rat	0
+human,mouse,worm,fly	4
+human,mouse,worm,rat	2
+human,mouse,worm,yeast	2
+human,mouse,fly,worm	4
+human,mouse,fly,rat	4
+human,mouse,fly,yeast	2
+human,mouse,rat,worm	2
+human,mouse,rat,fly	4
+human,mouse,rat,yeast	3
+human,mouse,yeast,worm	2
+human,mouse,yeast,fly	2
+human,mouse,yeast,rat	3
+human,rat,worm,fly	1
+human,rat,worm,mouse	2
+human,rat,worm,yeast	0
+human,rat,fly,worm	1
+human,rat,fly,mouse	4
+human,rat,fly,yeast	0
+human,rat,mouse,worm	2
+human,rat,mouse,fly	4
+human,rat,mouse,yeast	3
+human,rat,yeast,worm	0
+human,rat,yeast,fly	0
+human,rat,yeast,mouse	3
+human,yeast,worm,fly	0
+human,yeast,worm,mouse	2
+human,yeast,worm,rat	0
+human,yeast,fly,worm	0
+human,yeast,fly,mouse	2
+human,yeast,fly,rat	0
+human,yeast,mouse,worm	2
+human,yeast,mouse,fly	2
+human,yeast,mouse,rat	3
+human,yeast,rat,worm	0
+human,yeast,rat,fly	0
+human,yeast,rat,mouse	3
+worm,human,fly,mouse	4
+worm,human,fly,rat	1
+worm,human,fly,yeast	0
+worm,human,mouse,fly	4
+worm,human,mouse,rat	2
+worm,human,mouse,yeast	2
+worm,human,rat,fly	1
+worm,human,rat,mouse	2
+worm,human,rat,yeast	0
+worm,human,yeast,fly	0
+worm,human,yeast,mouse	2
+worm,human,yeast,rat	0
+worm,fly,human,mouse	4
+worm,fly,human,rat	1
+worm,fly,human,yeast	0
+worm,fly,mouse,human	4
+worm,fly,mouse,rat	0
+worm,fly,mouse,yeast	0
+worm,fly,rat,human	1
+worm,fly,rat,mouse	0
+worm,fly,rat,yeast	0
+worm,fly,yeast,human	0
+worm,fly,yeast,mouse	0
+worm,fly,yeast,rat	0
+worm,mouse,human,fly	4
+worm,mouse,human,rat	2
+worm,mouse,human,yeast	2
+worm,mouse,fly,human	4
+worm,mouse,fly,rat	0
+worm,mouse,fly,yeast	0
+worm,mouse,rat,human	2
+worm,mouse,rat,fly	0
+worm,mouse,rat,yeast	0
+worm,mouse,yeast,human	2
+worm,mouse,yeast,fly	0
+worm,mouse,yeast,rat	0
+worm,rat,human,fly	1
+worm,rat,human,mouse	2
+worm,rat,human,yeast	0
+worm,rat,fly,human	1
+worm,rat,fly,mouse	0
+worm,rat,fly,yeast	0
+worm,rat,mouse,human	2
+worm,rat,mouse,fly	0
+worm,rat,mouse,yeast	0
+worm,rat,yeast,human	0
+worm,rat,yeast,fly	0
+worm,rat,yeast,mouse	0
+worm,yeast,human,fly	0
+worm,yeast,human,mouse	2
+worm,yeast,human,rat	0
+worm,yeast,fly,human	0
+worm,yeast,fly,mouse	0
+worm,yeast,fly,rat	0
+worm,yeast,mouse,human	2
+worm,yeast,mouse,fly	0
+worm,yeast,mouse,rat	0
+worm,yeast,rat,human	0
+worm,yeast,rat,fly	0
+worm,yeast,rat,mouse	0
+fly,human,worm,mouse	4
+fly,human,worm,rat	1
+fly,human,worm,yeast	0
+fly,human,mouse,worm	4
+fly,human,mouse,rat	4
+fly,human,mouse,yeast	2
+fly,human,rat,worm	1
+fly,human,rat,mouse	4
+fly,human,rat,yeast	0
+fly,human,yeast,worm	0
+fly,human,yeast,mouse	2
+fly,human,yeast,rat	0
+fly,worm,human,mouse	4
+fly,worm,human,rat	1
+fly,worm,human,yeast	0
+fly,worm,mouse,human	4
+fly,worm,mouse,rat	0
+fly,worm,mouse,yeast	0
+fly,worm,rat,human	1
+fly,worm,rat,mouse	0
+fly,worm,rat,yeast	0
+fly,worm,yeast,human	0
+fly,worm,yeast,mouse	0
+fly,worm,yeast,rat	0
+fly,mouse,human,worm	4
+fly,mouse,human,rat	4
+fly,mouse,human,yeast	2
+fly,mouse,worm,human	4
+fly,mouse,worm,rat	0
+fly,mouse,worm,yeast	0
+fly,mouse,rat,human	4
+fly,mouse,rat,worm	0
+fly,mouse,rat,yeast	0
+fly,mouse,yeast,human	2
+fly,mouse,yeast,worm	0
+fly,mouse,yeast,rat	0
+fly,rat,human,worm	1
+fly,rat,human,mouse	4
+fly,rat,human,yeast	0
+fly,rat,worm,human	1
+fly,rat,worm,mouse	0
+fly,rat,worm,yeast	0
+fly,rat,mouse,human	4
+fly,rat,mouse,worm	0
+fly,rat,mouse,yeast	0
+fly,rat,yeast,human	0
+fly,rat,yeast,worm	0
+fly,rat,yeast,mouse	0
+fly,yeast,human,worm	0
+fly,yeast,human,mouse	2
+fly,yeast,human,rat	0
+fly,yeast,worm,human	0
+fly,yeast,worm,mouse	0
+fly,yeast,worm,rat	0
+fly,yeast,mouse,human	2
+fly,yeast,mouse,worm	0
+fly,yeast,mouse,rat	0
+fly,yeast,rat,human	0
+fly,yeast,rat,worm	0
+fly,yeast,rat,mouse	0
+mouse,human,worm,fly	4
+mouse,human,worm,rat	2
+mouse,human,worm,yeast	2
+mouse,human,fly,worm	4
+mouse,human,fly,rat	4
+mouse,human,fly,yeast	2
+mouse,human,rat,worm	2
+mouse,human,rat,fly	4
+mouse,human,rat,yeast	3
+mouse,human,yeast,worm	2
+mouse,human,yeast,fly	2
+mouse,human,yeast,rat	3
+mouse,worm,human,fly	4
+mouse,worm,human,rat	2
+mouse,worm,human,yeast	2
+mouse,worm,fly,human	4
+mouse,worm,fly,rat	0
+mouse,worm,fly,yeast	0
+mouse,worm,rat,human	2
+mouse,worm,rat,fly	0
+mouse,worm,rat,yeast	0
+mouse,worm,yeast,human	2
+mouse,worm,yeast,fly	0
+mouse,worm,yeast,rat	0
+mouse,fly,human,worm	4
+mouse,fly,human,rat	4
+mouse,fly,human,yeast	2
+mouse,fly,worm,human	4
+mouse,fly,worm,rat	0
+mouse,fly,worm,yeast	0
+mouse,fly,rat,human	4
+mouse,fly,rat,worm	0
+mouse,fly,rat,yeast	0
+mouse,fly,yeast,human	2
+mouse,fly,yeast,worm	0
+mouse,fly,yeast,rat	0
+mouse,rat,human,worm	2
+mouse,rat,human,fly	4
+mouse,rat,human,yeast	3
+mouse,rat,worm,human	2
+mouse,rat,worm,fly	0
+mouse,rat,worm,yeast	0
+mouse,rat,fly,human	4
+mouse,rat,fly,worm	0
+mouse,rat,fly,yeast	0
+mouse,rat,yeast,human	3
+mouse,rat,yeast,worm	0
+mouse,rat,yeast,fly	0
+mouse,yeast,human,worm	2
+mouse,yeast,human,fly	2
+mouse,yeast,human,rat	3
+mouse,yeast,worm,human	2
+mouse,yeast,worm,fly	0
+mouse,yeast,worm,rat	0
+mouse,yeast,fly,human	2
+mouse,yeast,fly,worm	0
+mouse,yeast,fly,rat	0
+mouse,yeast,rat,human	3
+mouse,yeast,rat,worm	0
+mouse,yeast,rat,fly	0
+rat,human,worm,fly	1
+rat,human,worm,mouse	2
+rat,human,worm,yeast	0
+rat,human,fly,worm	1
+rat,human,fly,mouse	4
+rat,human,fly,yeast	0
+rat,human,mouse,worm	2
+rat,human,mouse,fly	4
+rat,human,mouse,yeast	3
+rat,human,yeast,worm	0
+rat,human,yeast,fly	0
+rat,human,yeast,mouse	3
+rat,worm,human,fly	1
+rat,worm,human,mouse	2
+rat,worm,human,yeast	0
+rat,worm,fly,human	1
+rat,worm,fly,mouse	0
+rat,worm,fly,yeast	0
+rat,worm,mouse,human	2
+rat,worm,mouse,fly	0
+rat,worm,mouse,yeast	0
+rat,worm,yeast,human	0
+rat,worm,yeast,fly	0
+rat,worm,yeast,mouse	0
+rat,fly,human,worm	1
+rat,fly,human,mouse	4
+rat,fly,human,yeast	0
+rat,fly,worm,human	1
+rat,fly,worm,mouse	0
+rat,fly,worm,yeast	0
+rat,fly,mouse,human	4
+rat,fly,mouse,worm	0
+rat,fly,mouse,yeast	0
+rat,fly,yeast,human	0
+rat,fly,yeast,worm	0
+rat,fly,yeast,mouse	0
+rat,mouse,human,worm	2
+rat,mouse,human,fly	4
+rat,mouse,human,yeast	3
+rat,mouse,worm,human	2
+rat,mouse,worm,fly	0
+rat,mouse,worm,yeast	0
+rat,mouse,fly,human	4
+rat,mouse,fly,worm	0
+rat,mouse,fly,yeast	0
+rat,mouse,yeast,human	3
+rat,mouse,yeast,worm	0
+rat,mouse,yeast,fly	0
+rat,yeast,human,worm	0
+rat,yeast,human,fly	0
+rat,yeast,human,mouse	3
+rat,yeast,worm,human	0
+rat,yeast,worm,fly	0
+rat,yeast,worm,mouse	0
+rat,yeast,fly,human	0
+rat,yeast,fly,worm	0
+rat,yeast,fly,mouse	0
+rat,yeast,mouse,human	3
+rat,yeast,mouse,worm	0
+rat,yeast,mouse,fly	0
+yeast,human,worm,fly	0
+yeast,human,worm,mouse	2
+yeast,human,worm,rat	0
+yeast,human,fly,worm	0
+yeast,human,fly,mouse	2
+yeast,human,fly,rat	0
+yeast,human,mouse,worm	2
+yeast,human,mouse,fly	2
+yeast,human,mouse,rat	3
+yeast,human,rat,worm	0
+yeast,human,rat,fly	0
+yeast,human,rat,mouse	3
+yeast,worm,human,fly	0
+yeast,worm,human,mouse	2
+yeast,worm,human,rat	0
+yeast,worm,fly,human	0
+yeast,worm,fly,mouse	0
+yeast,worm,fly,rat	0
+yeast,worm,mouse,human	2
+yeast,worm,mouse,fly	0
+yeast,worm,mouse,rat	0
+yeast,worm,rat,human	0
+yeast,worm,rat,fly	0
+yeast,worm,rat,mouse	0
+yeast,fly,human,worm	0
+yeast,fly,human,mouse	2
+yeast,fly,human,rat	0
+yeast,fly,worm,human	0
+yeast,fly,worm,mouse	0
+yeast,fly,worm,rat	0
+yeast,fly,mouse,human	2
+yeast,fly,mouse,worm	0
+yeast,fly,mouse,rat	0
+yeast,fly,rat,human	0
+yeast,fly,rat,worm	0
+yeast,fly,rat,mouse	0
+yeast,mouse,human,worm	2
+yeast,mouse,human,fly	2
+yeast,mouse,human,rat	3
+yeast,mouse,worm,human	2
+yeast,mouse,worm,fly	0
+yeast,mouse,worm,rat	0
+yeast,mouse,fly,human	2
+yeast,mouse,fly,worm	0
+yeast,mouse,fly,rat	0
+yeast,mouse,rat,human	3
+yeast,mouse,rat,worm	0
+yeast,mouse,rat,fly	0
+yeast,rat,human,worm	0
+yeast,rat,human,fly	0
+yeast,rat,human,mouse	3
+yeast,rat,worm,human	0
+yeast,rat,worm,fly	0
+yeast,rat,worm,mouse	0
+yeast,rat,fly,human	0
+yeast,rat,fly,worm	0
+yeast,rat,fly,mouse	0
+yeast,rat,mouse,human	3
+yeast,rat,mouse,worm	0
+yeast,rat,mouse,fly	0
+human, worm, fly, mouse, rat	3
+human, worm, fly, mouse, yeast	1
+human, worm, fly, rat, mouse	3
+human, worm, fly, rat, yeast	0
+human, worm, fly, yeast, mouse	1
+human, worm, fly, yeast, rat	0
+human, worm, mouse, fly, rat	3
+human, worm, mouse, fly, yeast	1
+human, worm, mouse, rat, fly	3
+human, worm, mouse, rat, yeast	0
+human, worm, mouse, yeast, fly	1
+human, worm, mouse, yeast, rat	0
+human, worm, rat, fly, mouse	3
+human, worm, rat, fly, yeast	0
+human, worm, rat, mouse, fly	3
+human, worm, rat, mouse, yeast	0
+human, worm, rat, yeast, fly	0
+human, worm, rat, yeast, mouse	0
+human, worm, yeast, fly, mouse	1
+human, worm, yeast, fly, rat	0
+human, worm, yeast, mouse, fly	1
+human, worm, yeast, mouse, rat	0
+human, worm, yeast, rat, fly	0
+human, worm, yeast, rat, mouse	0
+human, fly, worm, mouse, rat	3
+human, fly, worm, mouse, yeast	1
+human, fly, worm, rat, mouse	3
+human, fly, worm, rat, yeast	0
+human, fly, worm, yeast, mouse	1
+human, fly, worm, yeast, rat	0
+human, fly, mouse, worm, rat	3
+human, fly, mouse, worm, yeast	1
+human, fly, mouse, rat, worm	3
+human, fly, mouse, rat, yeast	2
+human, fly, mouse, yeast, worm	1
+human, fly, mouse, yeast, rat	2
+human, fly, rat, worm, mouse	3
+human, fly, rat, worm, yeast	0
+human, fly, rat, mouse, worm	3
+human, fly, rat, mouse, yeast	2
+human, fly, rat, yeast, worm	0
+human, fly, rat, yeast, mouse	2
+human, fly, yeast, worm, mouse	1
+human, fly, yeast, worm, rat	0
+human, fly, yeast, mouse, worm	1
+human, fly, yeast, mouse, rat	2
+human, fly, yeast, rat, worm	0
+human, fly, yeast, rat, mouse	2
+human, mouse, worm, fly, rat	3
+human, mouse, worm, fly, yeast	1
+human, mouse, worm, rat, fly	3
+human, mouse, worm, rat, yeast	0
+human, mouse, worm, yeast, fly	1
+human, mouse, worm, yeast, rat	0
+human, mouse, fly, worm, rat	3
+human, mouse, fly, worm, yeast	1
+human, mouse, fly, rat, worm	3
+human, mouse, fly, rat, yeast	2
+human, mouse, fly, yeast, worm	1
+human, mouse, fly, yeast, rat	2
+human, mouse, rat, worm, fly	3
+human, mouse, rat, worm, yeast	0
+human, mouse, rat, fly, worm	3
+human, mouse, rat, fly, yeast	2
+human, mouse, rat, yeast, worm	0
+human, mouse, rat, yeast, fly	2
+human, mouse, yeast, worm, fly	1
+human, mouse, yeast, worm, rat	0
+human, mouse, yeast, fly, worm	1
+human, mouse, yeast, fly, rat	2
+human, mouse, yeast, rat, worm	0
+human, mouse, yeast, rat, fly	2
+human, rat, worm, fly, mouse	3
+human, rat, worm, fly, yeast	0
+human, rat, worm, mouse, fly	3
+human, rat, worm, mouse, yeast	0
+human, rat, worm, yeast, fly	0
+human, rat, worm, yeast, mouse	0
+human, rat, fly, worm, mouse	3
+human, rat, fly, worm, yeast	0
+human, rat, fly, mouse, worm	3
+human, rat, fly, mouse, yeast	2
+human, rat, fly, yeast, worm	0
+human, rat, fly, yeast, mouse	2
+human, rat, mouse, worm, fly	3
+human, rat, mouse, worm, yeast	0
+human, rat, mouse, fly, worm	3
+human, rat, mouse, fly, yeast	2
+human, rat, mouse, yeast, worm	0
+human, rat, mouse, yeast, fly	2
+human, rat, yeast, worm, fly	0
+human, rat, yeast, worm, mouse	0
+human, rat, yeast, fly, worm	0
+human, rat, yeast, fly, mouse	2
+human, rat, yeast, mouse, worm	0
+human, rat, yeast, mouse, fly	2
+human, yeast, worm, fly, mouse	1
+human, yeast, worm, fly, rat	0
+human, yeast, worm, mouse, fly	1
+human, yeast, worm, mouse, rat	0
+human, yeast, worm, rat, fly	0
+human, yeast, worm, rat, mouse	0
+human, yeast, fly, worm, mouse	1
+human, yeast, fly, worm, rat	0
+human, yeast, fly, mouse, worm	1
+human, yeast, fly, mouse, rat	2
+human, yeast, fly, rat, worm	0
+human, yeast, fly, rat, mouse	2
+human, yeast, mouse, worm, fly	1
+human, yeast, mouse, worm, rat	0
+human, yeast, mouse, fly, worm	1
+human, yeast, mouse, fly, rat	2
+human, yeast, mouse, rat, worm	0
+human, yeast, mouse, rat, fly	2
+human, yeast, rat, worm, fly	0
+human, yeast, rat, worm, mouse	0
+human, yeast, rat, fly, worm	0
+human, yeast, rat, fly, mouse	2
+human, yeast, rat, mouse, worm	0
+human, yeast, rat, mouse, fly	2
+worm, human, fly, mouse, rat	3
+worm, human, fly, mouse, yeast	1
+worm, human, fly, rat, mouse	3
+worm, human, fly, rat, yeast	0
+worm, human, fly, yeast, mouse	1
+worm, human, fly, yeast, rat	0
+worm, human, mouse, fly, rat	3
+worm, human, mouse, fly, yeast	1
+worm, human, mouse, rat, fly	3
+worm, human, mouse, rat, yeast	0
+worm, human, mouse, yeast, fly	1
+worm, human, mouse, yeast, rat	0
+worm, human, rat, fly, mouse	3
+worm, human, rat, fly, yeast	0
+worm, human, rat, mouse, fly	3
+worm, human, rat, mouse, yeast	0
+worm, human, rat, yeast, fly	0
+worm, human, rat, yeast, mouse	0
+worm, human, yeast, fly, mouse	1
+worm, human, yeast, fly, rat	0
+worm, human, yeast, mouse, fly	1
+worm, human, yeast, mouse, rat	0
+worm, human, yeast, rat, fly	0
+worm, human, yeast, rat, mouse	0
+worm, fly, human, mouse, rat	3
+worm, fly, human, mouse, yeast	1
+worm, fly, human, rat, mouse	3
+worm, fly, human, rat, yeast	0
+worm, fly, human, yeast, mouse	1
+worm, fly, human, yeast, rat	0
+worm, fly, mouse, human, rat	3
+worm, fly, mouse, human, yeast	1
+worm, fly, mouse, rat, human	3
+worm, fly, mouse, rat, yeast	0
+worm, fly, mouse, yeast, human	1
+worm, fly, mouse, yeast, rat	0
+worm, fly, rat, human, mouse	3
+worm, fly, rat, human, yeast	0
+worm, fly, rat, mouse, human	3
+worm, fly, rat, mouse, yeast	0
+worm, fly, rat, yeast, human	0
+worm, fly, rat, yeast, mouse	0
+worm, fly, yeast, human, mouse	1
+worm, fly, yeast, human, rat	0
+worm, fly, yeast, mouse, human	1
+worm, fly, yeast, mouse, rat	0
+worm, fly, yeast, rat, human	0
+worm, fly, yeast, rat, mouse	0
+worm, mouse, human, fly, rat	3
+worm, mouse, human, fly, yeast	1
+worm, mouse, human, rat, fly	3
+worm, mouse, human, rat, yeast	0
+worm, mouse, human, yeast, fly	1
+worm, mouse, human, yeast, rat	0
+worm, mouse, fly, human, rat	3
+worm, mouse, fly, human, yeast	1
+worm, mouse, fly, rat, human	3
+worm, mouse, fly, rat, yeast	0
+worm, mouse, fly, yeast, human	1
+worm, mouse, fly, yeast, rat	0
+worm, mouse, rat, human, fly	3
+worm, mouse, rat, human, yeast	0
+worm, mouse, rat, fly, human	3
+worm, mouse, rat, fly, yeast	0
+worm, mouse, rat, yeast, human	0
+worm, mouse, rat, yeast, fly	0
+worm, mouse, yeast, human, fly	1
+worm, mouse, yeast, human, rat	0
+worm, mouse, yeast, fly, human	1
+worm, mouse, yeast, fly, rat	0
+worm, mouse, yeast, rat, human	0
+worm, mouse, yeast, rat, fly	0
+worm, rat, human, fly, mouse	3
+worm, rat, human, fly, yeast	0
+worm, rat, human, mouse, fly	3
+worm, rat, human, mouse, yeast	0
+worm, rat, human, yeast, fly	0
+worm, rat, human, yeast, mouse	0
+worm, rat, fly, human, mouse	3
+worm, rat, fly, human, yeast	0
+worm, rat, fly, mouse, human	3
+worm, rat, fly, mouse, yeast	0
+worm, rat, fly, yeast, human	0
+worm, rat, fly, yeast, mouse	0
+worm, rat, mouse, human, fly	3
+worm, rat, mouse, human, yeast	0
+worm, rat, mouse, fly, human	3
+worm, rat, mouse, fly, yeast	0
+worm, rat, mouse, yeast, human	0
+worm, rat, mouse, yeast, fly	0
+worm, rat, yeast, human, fly	0
+worm, rat, yeast, human, mouse	0
+worm, rat, yeast, fly, human	0
+worm, rat, yeast, fly, mouse	0
+worm, rat, yeast, mouse, human	0
+worm, rat, yeast, mouse, fly	0
+worm, yeast, human, fly, mouse	1
+worm, yeast, human, fly, rat	0
+worm, yeast, human, mouse, fly	1
+worm, yeast, human, mouse, rat	0
+worm, yeast, human, rat, fly	0
+worm, yeast, human, rat, mouse	0
+worm, yeast, fly, human, mouse	1
+worm, yeast, fly, human, rat	0
+worm, yeast, fly, mouse, human	1
+worm, yeast, fly, mouse, rat	0
+worm, yeast, fly, rat, human	0
+worm, yeast, fly, rat, mouse	0
+worm, yeast, mouse, human, fly	1
+worm, yeast, mouse, human, rat	0
+worm, yeast, mouse, fly, human	1
+worm, yeast, mouse, fly, rat	0
+worm, yeast, mouse, rat, human	0
+worm, yeast, mouse, rat, fly	0
+worm, yeast, rat, human, fly	0
+worm, yeast, rat, human, mouse	0
+worm, yeast, rat, fly, human	0
+worm, yeast, rat, fly, mouse	0
+worm, yeast, rat, mouse, human	0
+worm, yeast, rat, mouse, fly	0
+fly, human, worm, mouse, rat	3
+fly, human, worm, mouse, yeast	1
+fly, human, worm, rat, mouse	3
+fly, human, worm, rat, yeast	0
+fly, human, worm, yeast, mouse	1
+fly, human, worm, yeast, rat	0
+fly, human, mouse, worm, rat	3
+fly, human, mouse, worm, yeast	1
+fly, human, mouse, rat, worm	3
+fly, human, mouse, rat, yeast	2
+fly, human, mouse, yeast, worm	1
+fly, human, mouse, yeast, rat	2
+fly, human, rat, worm, mouse	3
+fly, human, rat, worm, yeast	0
+fly, human, rat, mouse, worm	3
+fly, human, rat, mouse, yeast	2
+fly, human, rat, yeast, worm	0
+fly, human, rat, yeast, mouse	2
+fly, human, yeast, worm, mouse	1
+fly, human, yeast, worm, rat	0
+fly, human, yeast, mouse, worm	1
+fly, human, yeast, mouse, rat	2
+fly, human, yeast, rat, worm	0
+fly, human, yeast, rat, mouse	2
+fly, worm, human, mouse, rat	3
+fly, worm, human, mouse, yeast	1
+fly, worm, human, rat, mouse	3
+fly, worm, human, rat, yeast	0
+fly, worm, human, yeast, mouse	1
+fly, worm, human, yeast, rat	0
+fly, worm, mouse, human, rat	3
+fly, worm, mouse, human, yeast	1
+fly, worm, mouse, rat, human	3
+fly, worm, mouse, rat, yeast	0
+fly, worm, mouse, yeast, human	1
+fly, worm, mouse, yeast, rat	0
+fly, worm, rat, human, mouse	3
+fly, worm, rat, human, yeast	0
+fly, worm, rat, mouse, human	3
+fly, worm, rat, mouse, yeast	0
+fly, worm, rat, yeast, human	0
+fly, worm, rat, yeast, mouse	0
+fly, worm, yeast, human, mouse	1
+fly, worm, yeast, human, rat	0
+fly, worm, yeast, mouse, human	1
+fly, worm, yeast, mouse, rat	0
+fly, worm, yeast, rat, human	0
+fly, worm, yeast, rat, mouse	0
+fly, mouse, human, worm, rat	3
+fly, mouse, human, worm, yeast	1
+fly, mouse, human, rat, worm	3
+fly, mouse, human, rat, yeast	2
+fly, mouse, human, yeast, worm	1
+fly, mouse, human, yeast, rat	2
+fly, mouse, worm, human, rat	3
+fly, mouse, worm, human, yeast	1
+fly, mouse, worm, rat, human	3
+fly, mouse, worm, rat, yeast	0
+fly, mouse, worm, yeast, human	1
+fly, mouse, worm, yeast, rat	0
+fly, mouse, rat, human, worm	3
+fly, mouse, rat, human, yeast	2
+fly, mouse, rat, worm, human	3
+fly, mouse, rat, worm, yeast	0
+fly, mouse, rat, yeast, human	2
+fly, mouse, rat, yeast, worm	0
+fly, mouse, yeast, human, worm	1
+fly, mouse, yeast, human, rat	2
+fly, mouse, yeast, worm, human	1
+fly, mouse, yeast, worm, rat	0
+fly, mouse, yeast, rat, human	2
+fly, mouse, yeast, rat, worm	0
+fly, rat, human, worm, mouse	3
+fly, rat, human, worm, yeast	0
+fly, rat, human, mouse, worm	3
+fly, rat, human, mouse, yeast	2
+fly, rat, human, yeast, worm	0
+fly, rat, human, yeast, mouse	2
+fly, rat, worm, human, mouse	3
+fly, rat, worm, human, yeast	0
+fly, rat, worm, mouse, human	3
+fly, rat, worm, mouse, yeast	0
+fly, rat, worm, yeast, human	0
+fly, rat, worm, yeast, mouse	0
+fly, rat, mouse, human, worm	3
+fly, rat, mouse, human, yeast	2
+fly, rat, mouse, worm, human	3
+fly, rat, mouse, worm, yeast	0
+fly, rat, mouse, yeast, human	2
+fly, rat, mouse, yeast, worm	0
+fly, rat, yeast, human, worm	0
+fly, rat, yeast, human, mouse	2
+fly, rat, yeast, worm, human	0
+fly, rat, yeast, worm, mouse	0
+fly, rat, yeast, mouse, human	2
+fly, rat, yeast, mouse, worm	0
+fly, yeast, human, worm, mouse	1
+fly, yeast, human, worm, rat	0
+fly, yeast, human, mouse, worm	1
+fly, yeast, human, mouse, rat	2
+fly, yeast, human, rat, worm	0
+fly, yeast, human, rat, mouse	2
+fly, yeast, worm, human, mouse	1
+fly, yeast, worm, human, rat	0
+fly, yeast, worm, mouse, human	1
+fly, yeast, worm, mouse, rat	0
+fly, yeast, worm, rat, human	0
+fly, yeast, worm, rat, mouse	0
+fly, yeast, mouse, human, worm	1
+fly, yeast, mouse, human, rat	2
+fly, yeast, mouse, worm, human	1
+fly, yeast, mouse, worm, rat	0
+fly, yeast, mouse, rat, human	2
+fly, yeast, mouse, rat, worm	0
+fly, yeast, rat, human, worm	0
+fly, yeast, rat, human, mouse	2
+fly, yeast, rat, worm, human	0
+fly, yeast, rat, worm, mouse	0
+fly, yeast, rat, mouse, human	2
+fly, yeast, rat, mouse, worm	0
+mouse, human, worm, fly, rat	3
+mouse, human, worm, fly, yeast	1
+mouse, human, worm, rat, fly	3
+mouse, human, worm, rat, yeast	0
+mouse, human, worm, yeast, fly	1
+mouse, human, worm, yeast, rat	0
+mouse, human, fly, worm, rat	3
+mouse, human, fly, worm, yeast	1
+mouse, human, fly, rat, worm	3
+mouse, human, fly, rat, yeast	2
+mouse, human, fly, yeast, worm	1
+mouse, human, fly, yeast, rat	2
+mouse, human, rat, worm, fly	3
+mouse, human, rat, worm, yeast	0
+mouse, human, rat, fly, worm	3
+mouse, human, rat, fly, yeast	2
+mouse, human, rat, yeast, worm	0
+mouse, human, rat, yeast, fly	2
+mouse, human, yeast, worm, fly	1
+mouse, human, yeast, worm, rat	0
+mouse, human, yeast, fly, worm	1
+mouse, human, yeast, fly, rat	2
+mouse, human, yeast, rat, worm	0
+mouse, human, yeast, rat, fly	2
+mouse, worm, human, fly, rat	3
+mouse, worm, human, fly, yeast	1
+mouse, worm, human, rat, fly	3
+mouse, worm, human, rat, yeast	0
+mouse, worm, human, yeast, fly	1
+mouse, worm, human, yeast, rat	0
+mouse, worm, fly, human, rat	3
+mouse, worm, fly, human, yeast	1
+mouse, worm, fly, rat, human	3
+mouse, worm, fly, rat, yeast	0
+mouse, worm, fly, yeast, human	1
+mouse, worm, fly, yeast, rat	0
+mouse, worm, rat, human, fly	3
+mouse, worm, rat, human, yeast	0
+mouse, worm, rat, fly, human	3
+mouse, worm, rat, fly, yeast	0
+mouse, worm, rat, yeast, human	0
+mouse, worm, rat, yeast, fly	0
+mouse, worm, yeast, human, fly	1
+mouse, worm, yeast, human, rat	0
+mouse, worm, yeast, fly, human	1
+mouse, worm, yeast, fly, rat	0
+mouse, worm, yeast, rat, human	0
+mouse, worm, yeast, rat, fly	0
+mouse, fly, human, worm, rat	3
+mouse, fly, human, worm, yeast	1
+mouse, fly, human, rat, worm	3
+mouse, fly, human, rat, yeast	2
+mouse, fly, human, yeast, worm	1
+mouse, fly, human, yeast, rat	2
+mouse, fly, worm, human, rat	3
+mouse, fly, worm, human, yeast	1
+mouse, fly, worm, rat, human	3
+mouse, fly, worm, rat, yeast	0
+mouse, fly, worm, yeast, human	1
+mouse, fly, worm, yeast, rat	0
+mouse, fly, rat, human, worm	3
+mouse, fly, rat, human, yeast	2
+mouse, fly, rat, worm, human	3
+mouse, fly, rat, worm, yeast	0
+mouse, fly, rat, yeast, human	2
+mouse, fly, rat, yeast, worm	0
+mouse, fly, yeast, human, worm	1
+mouse, fly, yeast, human, rat	2
+mouse, fly, yeast, worm, human	1
+mouse, fly, yeast, worm, rat	0
+mouse, fly, yeast, rat, human	2
+mouse, fly, yeast, rat, worm	0
+mouse, rat, human, worm, fly	3
+mouse, rat, human, worm, yeast	0
+mouse, rat, human, fly, worm	3
+mouse, rat, human, fly, yeast	2
+mouse, rat, human, yeast, worm	0
+mouse, rat, human, yeast, fly	2
+mouse, rat, worm, human, fly	3
+mouse, rat, worm, human, yeast	0
+mouse, rat, worm, fly, human	3
+mouse, rat, worm, fly, yeast	0
+mouse, rat, worm, yeast, human	0
+mouse, rat, worm, yeast, fly	0
+mouse, rat, fly, human, worm	3
+mouse, rat, fly, human, yeast	2
+mouse, rat, fly, worm, human	3
+mouse, rat, fly, worm, yeast	0
+mouse, rat, fly, yeast, human	2
+mouse, rat, fly, yeast, worm	0
+mouse, rat, yeast, human, worm	0
+mouse, rat, yeast, human, fly	2
+mouse, rat, yeast, worm, human	0
+mouse, rat, yeast, worm, fly	0
+mouse, rat, yeast, fly, human	2
+mouse, rat, yeast, fly, worm	0
+mouse, yeast, human, worm, fly	1
+mouse, yeast, human, worm, rat	0
+mouse, yeast, human, fly, worm	1
+mouse, yeast, human, fly, rat	2
+mouse, yeast, human, rat, worm	0
+mouse, yeast, human, rat, fly	2
+mouse, yeast, worm, human, fly	1
+mouse, yeast, worm, human, rat	0
+mouse, yeast, worm, fly, human	1
+mouse, yeast, worm, fly, rat	0
+mouse, yeast, worm, rat, human	0
+mouse, yeast, worm, rat, fly	0
+mouse, yeast, fly, human, worm	1
+mouse, yeast, fly, human, rat	2
+mouse, yeast, fly, worm, human	1
+mouse, yeast, fly, worm, rat	0
+mouse, yeast, fly, rat, human	2
+mouse, yeast, fly, rat, worm	0
+mouse, yeast, rat, human, worm	0
+mouse, yeast, rat, human, fly	2
+mouse, yeast, rat, worm, human	0
+mouse, yeast, rat, worm, fly	0
+mouse, yeast, rat, fly, human	2
+mouse, yeast, rat, fly, worm	0
+rat, human, worm, fly, mouse	3
+rat, human, worm, fly, yeast	0
+rat, human, worm, mouse, fly	3
+rat, human, worm, mouse, yeast	0
+rat, human, worm, yeast, fly	0
+rat, human, worm, yeast, mouse	0
+rat, human, fly, worm, mouse	3
+rat, human, fly, worm, yeast	0
+rat, human, fly, mouse, worm	3
+rat, human, fly, mouse, yeast	2
+rat, human, fly, yeast, worm	0
+rat, human, fly, yeast, mouse	2
+rat, human, mouse, worm, fly	3
+rat, human, mouse, worm, yeast	0
+rat, human, mouse, fly, worm	3
+rat, human, mouse, fly, yeast	2
+rat, human, mouse, yeast, worm	0
+rat, human, mouse, yeast, fly	2
+rat, human, yeast, worm, fly	0
+rat, human, yeast, worm, mouse	0
+rat, human, yeast, fly, worm	0
+rat, human, yeast, fly, mouse	2
+rat, human, yeast, mouse, worm	0
+rat, human, yeast, mouse, fly	2
+rat, worm, human, fly, mouse	3
+rat, worm, human, fly, yeast	0
+rat, worm, human, mouse, fly	3
+rat, worm, human, mouse, yeast	0
+rat, worm, human, yeast, fly	0
+rat, worm, human, yeast, mouse	0
+rat, worm, fly, human, mouse	3
+rat, worm, fly, human, yeast	0
+rat, worm, fly, mouse, human	3
+rat, worm, fly, mouse, yeast	0
+rat, worm, fly, yeast, human	0
+rat, worm, fly, yeast, mouse	0
+rat, worm, mouse, human, fly	3
+rat, worm, mouse, human, yeast	0
+rat, worm, mouse, fly, human	3
+rat, worm, mouse, fly, yeast	0
+rat, worm, mouse, yeast, human	0
+rat, worm, mouse, yeast, fly	0
+rat, worm, yeast, human, fly	0
+rat, worm, yeast, human, mouse	0
+rat, worm, yeast, fly, human	0
+rat, worm, yeast, fly, mouse	0
+rat, worm, yeast, mouse, human	0
+rat, worm, yeast, mouse, fly	0
+rat, fly, human, worm, mouse	3
+rat, fly, human, worm, yeast	0
+rat, fly, human, mouse, worm	3
+rat, fly, human, mouse, yeast	2
+rat, fly, human, yeast, worm	0
+rat, fly, human, yeast, mouse	2
+rat, fly, worm, human, mouse	3
+rat, fly, worm, human, yeast	0
+rat, fly, worm, mouse, human	3
+rat, fly, worm, mouse, yeast	0
+rat, fly, worm, yeast, human	0
+rat, fly, worm, yeast, mouse	0
+rat, fly, mouse, human, worm	3
+rat, fly, mouse, human, yeast	2
+rat, fly, mouse, worm, human	3
+rat, fly, mouse, worm, yeast	0
+rat, fly, mouse, yeast, human	2
+rat, fly, mouse, yeast, worm	0
+rat, fly, yeast, human, worm	0
+rat, fly, yeast, human, mouse	2
+rat, fly, yeast, worm, human	0
+rat, fly, yeast, worm, mouse	0
+rat, fly, yeast, mouse, human	2
+rat, fly, yeast, mouse, worm	0
+rat, mouse, human, worm, fly	3
+rat, mouse, human, worm, yeast	0
+rat, mouse, human, fly, worm	3
+rat, mouse, human, fly, yeast	2
+rat, mouse, human, yeast, worm	0
+rat, mouse, human, yeast, fly	2
+rat, mouse, worm, human, fly	3
+rat, mouse, worm, human, yeast	0
+rat, mouse, worm, fly, human	3
+rat, mouse, worm, fly, yeast	0
+rat, mouse, worm, yeast, human	0
+rat, mouse, worm, yeast, fly	0
+rat, mouse, fly, human, worm	3
+rat, mouse, fly, human, yeast	2
+rat, mouse, fly, worm, human	3
+rat, mouse, fly, worm, yeast	0
+rat, mouse, fly, yeast, human	2
+rat, mouse, fly, yeast, worm	0
+rat, mouse, yeast, human, worm	0
+rat, mouse, yeast, human, fly	2
+rat, mouse, yeast, worm, human	0
+rat, mouse, yeast, worm, fly	0
+rat, mouse, yeast, fly, human	2
+rat, mouse, yeast, fly, worm	0
+rat, yeast, human, worm, fly	0
+rat, yeast, human, worm, mouse	0
+rat, yeast, human, fly, worm	0
+rat, yeast, human, fly, mouse	2
+rat, yeast, human, mouse, worm	0
+rat, yeast, human, mouse, fly	2
+rat, yeast, worm, human, fly	0
+rat, yeast, worm, human, mouse	0
+rat, yeast, worm, fly, human	0
+rat, yeast, worm, fly, mouse	0
+rat, yeast, worm, mouse, human	0
+rat, yeast, worm, mouse, fly	0
+rat, yeast, fly, human, worm	0
+rat, yeast, fly, human, mouse	2
+rat, yeast, fly, worm, human	0
+rat, yeast, fly, worm, mouse	0
+rat, yeast, fly, mouse, human	2
+rat, yeast, fly, mouse, worm	0
+rat, yeast, mouse, human, worm	0
+rat, yeast, mouse, human, fly	2
+rat, yeast, mouse, worm, human	0
+rat, yeast, mouse, worm, fly	0
+rat, yeast, mouse, fly, human	2
+rat, yeast, mouse, fly, worm	0
+yeast, human, worm, fly, mouse	1
+yeast, human, worm, fly, rat	0
+yeast, human, worm, mouse, fly	1
+yeast, human, worm, mouse, rat	0
+yeast, human, worm, rat, fly	0
+yeast, human, worm, rat, mouse	0
+yeast, human, fly, worm, mouse	1
+yeast, human, fly, worm, rat	0
+yeast, human, fly, mouse, worm	1
+yeast, human, fly, mouse, rat	2
+yeast, human, fly, rat, worm	0
+yeast, human, fly, rat, mouse	2
+yeast, human, mouse, worm, fly	1
+yeast, human, mouse, worm, rat	0
+yeast, human, mouse, fly, worm	1
+yeast, human, mouse, fly, rat	2
+yeast, human, mouse, rat, worm	0
+yeast, human, mouse, rat, fly	2
+yeast, human, rat, worm, fly	0
+yeast, human, rat, worm, mouse	0
+yeast, human, rat, fly, worm	0
+yeast, human, rat, fly, mouse	2
+yeast, human, rat, mouse, worm	0
+yeast, human, rat, mouse, fly	2
+yeast, worm, human, fly, mouse	1
+yeast, worm, human, fly, rat	0
+yeast, worm, human, mouse, fly	1
+yeast, worm, human, mouse, rat	0
+yeast, worm, human, rat, fly	0
+yeast, worm, human, rat, mouse	0
+yeast, worm, fly, human, mouse	1
+yeast, worm, fly, human, rat	0
+yeast, worm, fly, mouse, human	1
+yeast, worm, fly, mouse, rat	0
+yeast, worm, fly, rat, human	0
+yeast, worm, fly, rat, mouse	0
+yeast, worm, mouse, human, fly	1
+yeast, worm, mouse, human, rat	0
+yeast, worm, mouse, fly, human	1
+yeast, worm, mouse, fly, rat	0
+yeast, worm, mouse, rat, human	0
+yeast, worm, mouse, rat, fly	0
+yeast, worm, rat, human, fly	0
+yeast, worm, rat, human, mouse	0
+yeast, worm, rat, fly, human	0
+yeast, worm, rat, fly, mouse	0
+yeast, worm, rat, mouse, human	0
+yeast, worm, rat, mouse, fly	0
+yeast, fly, human, worm, mouse	1
+yeast, fly, human, worm, rat	0
+yeast, fly, human, mouse, worm	1
+yeast, fly, human, mouse, rat	2
+yeast, fly, human, rat, worm	0
+yeast, fly, human, rat, mouse	2
+yeast, fly, worm, human, mouse	1
+yeast, fly, worm, human, rat	0
+yeast, fly, worm, mouse, human	1
+yeast, fly, worm, mouse, rat	0
+yeast, fly, worm, rat, human	0
+yeast, fly, worm, rat, mouse	0
+yeast, fly, mouse, human, worm	1
+yeast, fly, mouse, human, rat	2
+yeast, fly, mouse, worm, human	1
+yeast, fly, mouse, worm, rat	0
+yeast, fly, mouse, rat, human	2
+yeast, fly, mouse, rat, worm	0
+yeast, fly, rat, human, worm	0
+yeast, fly, rat, human, mouse	2
+yeast, fly, rat, worm, human	0
+yeast, fly, rat, worm, mouse	0
+yeast, fly, rat, mouse, human	2
+yeast, fly, rat, mouse, worm	0
+yeast, mouse, human, worm, fly	1
+yeast, mouse, human, worm, rat	0
+yeast, mouse, human, fly, worm	1
+yeast, mouse, human, fly, rat	2
+yeast, mouse, human, rat, worm	0
+yeast, mouse, human, rat, fly	2
+yeast, mouse, worm, human, fly	1
+yeast, mouse, worm, human, rat	0
+yeast, mouse, worm, fly, human	1
+yeast, mouse, worm, fly, rat	0
+yeast, mouse, worm, rat, human	0
+yeast, mouse, worm, rat, fly	0
+yeast, mouse, fly, human, worm	1
+yeast, mouse, fly, human, rat	2
+yeast, mouse, fly, worm, human	1
+yeast, mouse, fly, worm, rat	0
+yeast, mouse, fly, rat, human	2
+yeast, mouse, fly, rat, worm	0
+yeast, mouse, rat, human, worm	0
+yeast, mouse, rat, human, fly	2
+yeast, mouse, rat, worm, human	0
+yeast, mouse, rat, worm, fly	0
+yeast, mouse, rat, fly, human	2
+yeast, mouse, rat, fly, worm	0
+yeast, rat, human, worm, fly	0
+yeast, rat, human, worm, mouse	0
+yeast, rat, human, fly, worm	0
+yeast, rat, human, fly, mouse	2
+yeast, rat, human, mouse, worm	0
+yeast, rat, human, mouse, fly	2
+yeast, rat, worm, human, fly	0
+yeast, rat, worm, human, mouse	0
+yeast, rat, worm, fly, human	0
+yeast, rat, worm, fly, mouse	0
+yeast, rat, worm, mouse, human	0
+yeast, rat, worm, mouse, fly	0
+yeast, rat, fly, human, worm	0
+yeast, rat, fly, human, mouse	2
+yeast, rat, fly, worm, human	0
+yeast, rat, fly, worm, mouse	0
+yeast, rat, fly, mouse, human	2
+yeast, rat, fly, mouse, worm	0
+yeast, rat, mouse, human, worm	0
+yeast, rat, mouse, human, fly	2
+yeast, rat, mouse, worm, human	0
+yeast, rat, mouse, worm, fly	0
+yeast, rat, mouse, fly, human	2
+yeast, rat, mouse, fly, worm	0
+worm,human,yeast,fly,rat,mouse	0

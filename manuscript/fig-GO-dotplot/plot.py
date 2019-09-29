@@ -1,0 +1,92 @@
+import math
+import pandas as pd
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+from matplotlib import gridspec
+
+
+def GOplot(Ptitle, Pfile, Pdata):
+
+    titles = [i[0] for i in Pdata]
+    values = [abs(math.log10(i[2])) for i in Pdata]
+    colors_v = [i[1] for i in Pdata]
+
+    normalize = matplotlib.colors.Normalize(
+        vmin=min(colors_v), vmax=max(colors_v))
+
+    def size_normalize(s): return normalize(s)*500+25
+
+    cmap = matplotlib.colors.LinearSegmentedColormap.from_list(
+        "", [[0, "blue"], [1, "red"], ])
+    colors = [cmap(normalize(value)) for value in colors_v]
+    size = [size_normalize(value) for value in colors_v]
+
+    fig = plt.figure(figsize=(10, 10))
+    gs = gridspec.GridSpec(1, 3, width_ratios=[1, 2, 0.2])
+    ax = plt.subplot(gs[1])
+    sc = ax.scatter(values, titles, c=colors_v, s=size, cmap=cmap)
+    ax.grid()
+
+    # cbar = plt.colorbar(sc)
+    # cbar_ticks = [
+    #     min(colors_v),
+    #     min(colors_v) + (max(colors_v)-min(colors_v)) * 0.1,
+    #     min(colors_v) + (max(colors_v)-min(colors_v)) * 0.2,
+    #     min(colors_v) + (max(colors_v)-min(colors_v)) * 0.3,
+    #     min(colors_v) + (max(colors_v)-min(colors_v)) * 0.4,
+    #     min(colors_v) + (max(colors_v)-min(colors_v)) * 0.5,
+    #     min(colors_v) + (max(colors_v)-min(colors_v)) * 0.6,
+    #     min(colors_v) + (max(colors_v)-min(colors_v)) * 0.7,
+    #     min(colors_v) + (max(colors_v)-min(colors_v)) * 0.8,
+    #     min(colors_v) + (max(colors_v)-min(colors_v)) * 0.9,
+    #     max(colors_v),
+    # ]
+    # cbar.set_ticks(cbar_ticks)
+    # cbar.set_ticklabels([f"{i:.0f}" for i in cbar_ticks])
+    # cbar.set_label("Fold Enrichment")
+
+    size_legend_ticks = [
+        min(colors_v),
+        min(colors_v) + (max(colors_v)-min(colors_v)) * 0.333,
+        min(colors_v) + (max(colors_v)-min(colors_v)) * 0.666,
+        max(colors_v),
+    ]
+    legend = ax.legend(
+        [
+            plt.scatter([], [], s=size_normalize(i),
+                        color=sc.cmap(normalize(i)))
+            for i in size_legend_ticks
+        ],
+        [f"{i:.0f}" for i in size_legend_ticks],
+        scatterpoints=1,
+        labelspacing=1.5,
+        borderpad=1,
+        #loc="upper right",
+        bbox_to_anchor=(1.45, 1),
+        title="Fold Enrichment"
+    )
+
+    plt.xlim(min(values)*0.9, max(values)*1.1)
+    plt.xlabel("FDR (-log10)")
+    plt.title(Ptitle)
+
+    fig_h = len(Pdata)*0.5+1
+    if fig_h < 5:
+        fig_h == 5
+    fig.set_size_inches(8, fig_h)
+    plt.savefig(Pfile, dpi=300, bbox_inches='tight')
+    # plt.show()
+
+
+if __name__ == "__main__":
+    data = [
+        ["chaperone-mediated protein folding", 43.47, 3.07E-10],
+        ["protein folding", 16.72, 1.54E-10],
+        #["cellular response to heat", 31.48, 5.38E-06],
+        #["response to heat", 30.43, 4.95E-06],
+        #["cellular response to unfolded protein", 29.64, 5.06E-04],
+        #["response to topologically incorrect protein", 19.76, 2.52E-03],
+        #["response to unfolded protein", 29.64, 6.07E-04],
+    ]
+    GOplot("PANTHER GO-Slim Biological Process", "test.png", data)
