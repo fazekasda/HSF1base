@@ -46,19 +46,35 @@ def GOplot(Ptitle, Pfile, Pdata):
     # cbar.set_ticklabels([f"{i:.0f}" for i in cbar_ticks])
     # cbar.set_label("Fold Enrichment")
 
-    size_legend_ticks = [
-        min(colors_v),
-        min(colors_v) + (max(colors_v)-min(colors_v)) * 0.333,
-        min(colors_v) + (max(colors_v)-min(colors_v)) * 0.666,
-        max(colors_v),
-    ]
+    if len(Pdata) > 3:
+        size_legend_ticks = [
+            min(colors_v),
+            min(colors_v) + (max(colors_v)-min(colors_v)) * 0.333,
+            min(colors_v) + (max(colors_v)-min(colors_v)) * 0.666,
+            max(colors_v),
+        ]
+    elif len(Pdata) == 3:
+        size_legend_ticks = [
+            min(colors_v),
+            min(colors_v) + (max(colors_v)-min(colors_v)) * 0.5,
+            max(colors_v),
+        ]
+    else:
+        size_legend_ticks = [
+            min(colors_v),
+            max(colors_v),
+        ]
+    if max(colors_v)-min(colors_v) < 5 or max(colors_v) < 10:
+        size_legend_ticks_label = [f"{i:.1f}" for i in size_legend_ticks]
+    else:
+        size_legend_ticks_label = [f"{i:.0f}" for i in size_legend_ticks]
     legend = ax.legend(
         [
             plt.scatter([], [], s=size_normalize(i),
                         color=sc.cmap(normalize(i)))
             for i in size_legend_ticks
         ],
-        [f"{i:.0f}" for i in size_legend_ticks],
+        size_legend_ticks_label,
         scatterpoints=1,
         labelspacing=1.5,
         borderpad=1,
@@ -67,16 +83,20 @@ def GOplot(Ptitle, Pfile, Pdata):
         title="Fold Enrichment"
     )
 
-    plt.xlim(min(values)*0.9, max(values)*1.1)
     plt.xlabel("FDR (-log10)")
     plt.title(Ptitle)
 
+    plt.ylim(-1, len(Pdata))
+    plt.xlim(min(values)-(max(values)-min(values))*0.1,
+             max(values)+(max(values)-min(values))*0.1)
     fig_h = len(Pdata)*0.5+1
-    if fig_h < 5:
-        fig_h == 5
+    if fig_h < 2:
+        fig_h == 2
     fig.set_size_inches(8, fig_h)
+
     plt.savefig(Pfile, dpi=300, bbox_inches='tight')
     # plt.show()
+    plt.close()
 
 
 if __name__ == "__main__":

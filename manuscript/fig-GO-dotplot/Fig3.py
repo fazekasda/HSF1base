@@ -22,3 +22,4 @@ for s in range(6):
                 float(sheet.cell_value(i, 2)),
                 float(sheet.cell_value(i, 3))
             ])
+    GOplot(title, fname, data)

@@ -21,6 +21,7 @@ for i in range(sheet.nrows):
             float(sheet.cell_value(i, 2)),
             float(sheet.cell_value(i, 4))
         ])
+GOplot(title, fname, data)
 
 fignum = ""
 sheet = wb.sheet_by_index(1)
@@ -40,6 +41,7 @@ for i in range(sheet.nrows):
             float(sheet.cell_value(i, 2)),
             float(sheet.cell_value(i, 3))
         ])
+GOplot(title, fname, data)
 
 fignum = ""
 sheet = wb.sheet_by_index(2)
@@ -59,6 +61,7 @@ for i in range(sheet.nrows):
             float(sheet.cell_value(i, 2)),
             float(sheet.cell_value(i, 3))
         ])
+GOplot(title, fname, data)
 
 # data = [
 #     ["chaperone-mediated protein folding", 43.47, 3.07E-10],
