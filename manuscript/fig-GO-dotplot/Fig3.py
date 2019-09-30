@@ -15,7 +15,7 @@ for s in range(6):
             fignum = sheet.cell_value(i, 0)
             data = []
             title = sheet.cell_value(i, 1)
-            fname = f"Fig3_{s}_{fignum}.png"
+            fname = f"images/Fig3/Fig3_{s}_{fignum}.png"
         else:
             data.append([
                 sheet.cell_value(i, 1),

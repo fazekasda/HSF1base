@@ -14,7 +14,7 @@ for i in range(sheet.nrows):
         fignum = sheet.cell_value(i, 0)
         data = []
         title = sheet.cell_value(i, 1)
-        fname = f"Fig3B_0_{fignum}.png"
+        fname = f"images/Fig3B/Fig3B_0_{fignum}.png"
     else:
         data.append([
             sheet.cell_value(i, 1),
@@ -34,7 +34,7 @@ for i in range(sheet.nrows):
         fignum = sheet.cell_value(i, 0)
         data = []
         title = sheet.cell_value(i, 1)
-        fname = f"Fig3B_1_{fignum}.png"
+        fname = f"images/Fig3B/Fig3B_1_{fignum}.png"
     else:
         data.append([
             sheet.cell_value(i, 1),
@@ -54,7 +54,7 @@ for i in range(sheet.nrows):
         fignum = sheet.cell_value(i, 0)
         data = []
         title = sheet.cell_value(i, 1)
-        fname = f"Fig3B_2_{fignum}.png"
+        fname = f"images/Fig3B/Fig3B_2_{fignum}.png"
     else:
         data.append([
             sheet.cell_value(i, 1),

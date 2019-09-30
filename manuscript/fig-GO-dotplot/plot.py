@@ -6,6 +6,89 @@ import matplotlib.pyplot as plt
 from matplotlib import gridspec
 
 
+def GOplotFix(Ptitle, Pfile, Pdata, Xmin, Xmax, Smin, Smax, Plegend=False):
+
+    titles = [i[0] for i in Pdata]
+    values = [abs(math.log10(i[2])) for i in Pdata]
+    colors_v = [i[1] for i in Pdata]
+    Xminn = abs(math.log10(Xmin))
+    Xmaxn = abs(math.log10(Xmax))
+
+    normalize = matplotlib.colors.Normalize(
+        vmin=Smin, vmax=Smax)
+
+    def size_normalize(s): return normalize(s)*500+25
+
+    cmap = matplotlib.colors.LinearSegmentedColormap.from_list(
+        "", [[0, "blue"], [1, "red"], ])
+    size = [size_normalize(value) for value in colors_v]
+
+    fig = plt.figure(figsize=(10, 10))
+    if Plegend:
+        gs = gridspec.GridSpec(1, 3, width_ratios=[3, 3, 1])
+    else:
+        gs = gridspec.GridSpec(1, 2, width_ratios=[1, 1])
+    ax = plt.subplot(gs[1])
+    sc = ax.scatter(values, titles, c=colors_v, s=size, cmap=cmap)
+    ax.grid()
+
+    if len(Pdata) > 3:
+        size_legend_ticks = [
+            Smin,
+            Smin + (Smax-Smin) * 0.333,
+            Smin + (Smax-Smin) * 0.666,
+            Smax,
+        ]
+    elif len(Pdata) == 3:
+        size_legend_ticks = [
+            Smin,
+            Smin + (Smax-Smin) * 0.5,
+            Smax,
+        ]
+    else:
+        size_legend_ticks = [
+            Smin,
+            Smax,
+        ]
+    if Smax-Smin < 5 or Smax < 10:
+        size_legend_ticks_label = [f"{i:.1f}" for i in size_legend_ticks]
+    else:
+        size_legend_ticks_label = [f"{i:.0f}" for i in size_legend_ticks]
+    if Plegend:
+        legend = ax.legend(
+            [
+                plt.scatter([], [], s=size_normalize(i),
+                            color=sc.cmap(normalize(i)))
+                for i in size_legend_ticks
+            ],
+            size_legend_ticks_label,
+            scatterpoints=1,
+            labelspacing=1.5,
+            borderpad=1,
+            #loc="upper right",
+            bbox_to_anchor=(1.5, 1),
+            title="Fold Enrichment"
+        )
+
+    plt.yticks(fontsize=20, fontname="Arial")
+    plt.xticks(fontname="Arial")
+    plt.xlabel("FDR (-log10)", fontname="Arial")
+    plt.title(Ptitle, fontsize=24, fontname="Arial")
+
+    plt.ylim(-1, len(Pdata))
+    plt.xlim(
+        Xmaxn+(Xmaxn-Xminn)*0.1,
+        Xminn-(Xmaxn-Xminn)*0.1)
+    fig_h = len(Pdata)*0.5+1
+    # if fig_h < 2:
+    #     fig_h == 2
+    fig.set_size_inches(12, fig_h)
+
+    plt.savefig(Pfile, dpi=300, bbox_inches='tight')
+    # plt.show()
+    plt.close()
+
+
 def GOplot(Ptitle, Pfile, Pdata):
 
     titles = [i[0] for i in Pdata]
