@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on HSF1base</title>
+    <link>http://HSF1base.org/</link>
+    <description>Recent content in Home on HSF1base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://HSF1base.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Browse</title>
+      <link>http://HSF1base.org/browse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://HSF1base.org/browse/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>

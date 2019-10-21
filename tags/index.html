@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow, noarchive" />
+  <title>HSF1base - Tags</title>
+  <link rel="icon" href="http://HSF1base.org/" />
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" href="http://HSF1base.org/webix.min.css" type="text/css" charset="utf-8" />
+  <script src="http://HSF1base.org/webix.min.js" type="text/javascript" charset="utf-8"></script>
+
+  <meta name="generator" content="Hugo 0.58.3" />
+
+  
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tags"/>
+<meta name="twitter:description" content=""/>
+
+  <meta property="og:title" content="Tags" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://HSF1base.org/tags/" />
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="http://HSF1base.org/css/bundle.min.css">
+</head><body><header class="header">
+    <div class="header__title">
+        <a href="http://HSF1base.org/" class="header__title__link" alt="Home">
+            
+            HSF1base
+            
+        </a>
+    </div>
+
+    <nav class="menu" aria-label="menu">
+    <ul class="menu__items" aria-label="menu">
+        
+        
+        <li class="menu__items__item" aria-label="Home">
+            <a href="/" class="menu__items__item__link "
+                alt="Home" role="menuitem">
+                Home
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="Browse">
+            <a href="/browse/" class="menu__items__item__link "
+                alt="Browse" role="menuitem">
+                Browse
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+    <nav class="hamburger-menu" aria-label="mobile-menu">
+    <div class="toggle">
+        <input type="checkbox" class="hamburger__toggle" id="hamburgerToggle" name="hamburger toggle" aria-label="Hamburguer menu">
+        <label class="hamburger__toggle__icon" for="hamburgerToggle">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="hamburger__items" aria-label="mobile-menu">
+            
+            <li class="hamburger__items__item" aria-label="Home">
+                <a href="/" class="hamburger__items__item__link" alt="Home" role="menuitem">
+                    Home
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="Browse">
+                <a href="/browse/" class="hamburger__items__item__link" alt="Browse" role="menuitem">
+                    Browse
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
+</header>
+<main class="content">
+	
+
+	
+
+	
+
+
+</main>
+<footer class="footer">
+    
+
+    <address class="footer__contact">
+        
+
+        
+
+        
+
+        
+    </address>
+
+    <div class="copy">
+        
+        <p>© 2019 - HSF1base</p>
+        
+    </div>
+
+    
+
+
+
+
+<script src="http://HSF1base.org/js/bundle.min.243a483d5297388ef2f4a1b2d5e5d30218e01e8a2dfe213a376ea24d130837c860762a23e9daaa68ae3a7bcd5a3869287a14dc3b738f10486cf4e8fb4291b478.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+    var small_film_set = [
+        { id: 1, title: "The Shawshank Redemption", year: 1994, votes: 678790, rating: 9.2, rank: 1, category: "Thriller" },
+        { id: 2, title: "The Godfather", year: 1972, votes: 511495, rating: 9.2, rank: 2, category: "Crime" },
+        { id: 3, title: "The Godfather: Part II", year: 1974, votes: 319352, rating: 9.0, rank: 3, category: "Crime" },
+        { id: 4, title: "The Good, the Bad and the Ugly", year: 1966, votes: 213030, rating: 8.9, rank: 4, category: "Western" },
+        { id: 5, title: "Pulp fiction", year: 1994, votes: 533848, rating: 8.9, rank: 5, category: "Crime" },
+        { id: 6, title: "12 Angry Men", year: 1957, votes: 164558, rating: 8.9, rank: 6, category: "Western" }
+    ];
+    webix.ready(function () {
+        grid = webix.ui({
+            container: "testA",
+            view: "datatable", css: "webix_header_border",
+            columns: [
+                { id: "rank", header: "", css: "rank", sort: "int", adjust: "data" },
+                { id: "title", header: ["Film title", { content: "textFilter" }], sort: "string", adjust: "header" },
+                { id: "year", header: "Released", width: 80, sort: "int", tooltip: "", adjust: "data" },
+                { id: "votes", header: "Votes", width: 100, sort: "int", adjust: "data" }
+            ],
+            autoheight: true,
+            autowidth: true,
+            data: small_film_set
+        });
+        grid = webix.ui({
+            container: "testB",
+            view: "datatable", css: "webix_header_border",
+            columns: [
+                { id: "rank", header: "", css: "rank", width: 50, sort: "int" },
+                { id: "title", header: ["Film title", { content: "selectFilter" }], width: 200, sort: "string" },
+                { id: "year", header: "Released", width: 80, sort: "int" },
+                { id: "votes", header: "Votes", width: 100, sort: "int" }
+            ],
+            autoheight: true,
+            autowidth: true,
+            data: small_film_set
+        });
+    });
+</script>
+
+
+
+
+
+
+
+<script
+	defer
+	src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5&#43;&#43;eIfzYmTgBBmXYdhvxPc&#43;XcFEk&#43;zJwDgWbP"
+	crossorigin="anonymous"
+></script>
+
+</footer></body>
+
+</html>
