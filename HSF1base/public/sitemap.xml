@@ -3,15 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://HSF1base.org/categories/</loc>
+    <loc>https://HSF1base.org/</loc>
   </url>
   
   <url>
-    <loc>http://HSF1base.org/</loc>
+    <loc>https://HSF1base.org/about/</loc>
   </url>
   
   <url>
-    <loc>http://HSF1base.org/tags/</loc>
+    <loc>https://HSF1base.org/browse/</loc>
+  </url>
+  
+  <url>
+    <loc>https://HSF1base.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://HSF1base.org/tags/</loc>
   </url>
   
 </urlset>
