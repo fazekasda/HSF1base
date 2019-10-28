@@ -8,4 +8,4 @@ weight: 1
 ---
 
 # HSF1base
-## Integrated database og HSF1 targets
+##  A comprehensive database of HSF1 (heat shock factor 1) target genes
