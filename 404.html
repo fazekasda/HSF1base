@@ -150,19 +150,19 @@
             autoheight: true,
             autowidth: true,
             datatype: "csv",
-            url: "https:\/\/HSF1base.org\/data/browse.csv",
-            hover: "browse_row_hover",
-            on: {
-                "onItemClick": function (id, e, trg) {
-                    window.location.href = data_url_prefix + "target/" + dtable.getItem(id.row).geneid.toLowerCase() + "/";
-                }
-            },
-            pager: {
-                template: "{common.prev()}{common.next()}Page {common.page()} from #limit#",
-                container: "browse_targets_pager",
-                size: 25,
-                group: 5
-            }
+            url: "https://HSF1base.org/data/browse.csv",
+        hover: "browse_row_hover",
+        on: {
+        "onItemClick": function (id, e, trg) {
+            window.location.href = data_url_prefix + "target/" + dtable.getItem(id.row).geneid.toLowerCase() + "/";
+        }
+    },
+        pager: {
+        template: "{common.prev()}{common.next()}Page {common.page()} from #limit#",
+        container: "browse_targets_pager",
+        size: 25,
+        group: 5
+    }
         })
     });
 </script>
