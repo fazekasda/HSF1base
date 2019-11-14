@@ -38,6 +38,13 @@
 
 
 <link rel="stylesheet" href="https://HSF1base.org/css/bundle.min.css">
+<style>
+    .browse_targets_hover{
+        background:lightGrey;
+        cursor:pointer!important;
+    }
+</style>
+
 </head><body><header class="header">
     <div class="header__title">
         <a href="https://HSF1base.org/" class="header__title__link" alt="Home">
@@ -72,6 +79,13 @@
             </a>
         </li>
         
+        <li class="menu__items__item" aria-label="Download">
+            <a href="/download/" class="menu__items__item__link "
+                alt="Download" role="menuitem">
+                Download
+            </a>
+        </li>
+        
     </ul>
 </nav>
     <nav class="hamburger-menu" aria-label="mobile-menu">
@@ -98,6 +112,12 @@
             <li class="hamburger__items__item" aria-label="Browse">
                 <a href="/browse/" class="hamburger__items__item__link" alt="Browse" role="menuitem">
                     Browse
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="Download">
+                <a href="/download/" class="hamburger__items__item__link" alt="Download" role="menuitem">
+                    Download
                 </a>
             </li>
             
@@ -151,20 +171,39 @@
             autowidth: true,
             datatype: "csv",
             url: "https://HSF1base.org/data/browse.csv",
-        hover: "browse_row_hover",
-        on: {
-        "onItemClick": function (id, e, trg) {
-            window.location.href = data_url_prefix + "target/" + dtable.getItem(id.row).geneid.toLowerCase() + "/";
-        }
-    },
-        pager: {
-        template: "{common.prev()}{common.next()}Page {common.page()} from #limit#",
-        container: "browse_targets_pager",
-        size: 25,
-        group: 5
-    }
+            hover: "browse_row_hover",
+            on: {
+                "onItemClick": function (id, e, trg) {
+                    window.location.href = "https://HSF1base.org/" + "target/" + grid.getItem(id.row).geneid.toLowerCase() + "/"
+                },
+                onMouseMoving:function(event){
+                    try{
+                        var row = this.locate(event).row;
+                        if (row != this.last_used_row)
+                        this.removeRowCss(this.last_used_row, "browse_targets_hover");
+                        this.addRowCss(row, "browse_targets_hover");
+                        this.last_used_row = row;
+                    }catch(ex){}
+                },
+            },
+            onMouseMove:{},
+            pager: {
+                template: "{common.prev()}{common.next()}Page {common.page()} from #limit#",
+                container: "browse_targets_pager",
+                size: 25,
+                group: 5
+            }
         })
     });
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73347324-5"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-73347324-5');
 </script>
 
 
