@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow, noarchive" />
+  <title>HSF1base - ZMAT4</title>
+  <link rel="icon" href="https://HSF1base.org/" />
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" href="https://HSF1base.org/webix.min.css" type="text/css" charset="utf-8" />
+  <script src="https://HSF1base.org/webix.min.js" type="text/javascript" charset="utf-8"></script>
+
+  <meta name="generator" content="Hugo 0.58.3" />
+
+  
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ZMAT4"/>
+<meta name="twitter:description" content=""/>
+
+  <meta property="og:title" content="ZMAT4" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://HSF1base.org/target/ensg00000165061/" />
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://HSF1base.org/css/bundle.min.css">
+<style>
+    .browse_targets_hover{
+        background:lightGrey;
+        cursor:pointer!important;
+    }
+</style>
+
+</head><body><header class="header">
+    <div class="header__title">
+        <a href="https://HSF1base.org/" class="header__title__link" alt="Home">
+            
+            HSF1base
+            
+        </a>
+    </div>
+
+    <nav class="menu" aria-label="menu">
+    <ul class="menu__items" aria-label="menu">
+        
+        
+        <li class="menu__items__item" aria-label="Home">
+            <a href="/" class="menu__items__item__link "
+                alt="Home" role="menuitem">
+                Home
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="About">
+            <a href="/about/" class="menu__items__item__link "
+                alt="About" role="menuitem">
+                About
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="Browse">
+            <a href="/browse/" class="menu__items__item__link "
+                alt="Browse" role="menuitem">
+                Browse
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="Download">
+            <a href="/download/" class="menu__items__item__link "
+                alt="Download" role="menuitem">
+                Download
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+    <nav class="hamburger-menu" aria-label="mobile-menu">
+    <div class="toggle">
+        <input type="checkbox" class="hamburger__toggle" id="hamburgerToggle" name="hamburger toggle" aria-label="Hamburguer menu">
+        <label class="hamburger__toggle__icon" for="hamburgerToggle">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="hamburger__items" aria-label="mobile-menu">
+            
+            <li class="hamburger__items__item" aria-label="Home">
+                <a href="/" class="hamburger__items__item__link" alt="Home" role="menuitem">
+                    Home
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="About">
+                <a href="/about/" class="hamburger__items__item__link" alt="About" role="menuitem">
+                    About
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="Browse">
+                <a href="/browse/" class="hamburger__items__item__link" alt="Browse" role="menuitem">
+                    Browse
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="Download">
+                <a href="/download/" class="hamburger__items__item__link" alt="Download" role="menuitem">
+                    Download
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
+</header>
+<article class="post">
+    <header class="post__header">
+        <h1 class="post__title">HSF1 target: ZMAT4</h1>
+    </header>
+    <main class="post__body" style="margin-bottom: 3rem;">
+        <p>Gene name: ZMAT4</p>
+        <p>Gene ID: <a href="https://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000165061" target="_blank">ENSG00000165061</a></p>
+        <p>Species: Homo sapiens</p>
+
+        <h1>Evidences:</h1>
+        <div id="target_evidences"></div>
+    </main>
+
+</article>
+
+<script type="text/javascript" charset="utf-8">
+    webix.ready(function () {
+        grid = webix.ui({
+            container: "target_evidences",
+            view: "datatable", css: "webix_header_border",
+            columns: [
+                { id: "name", map: "#data0#", header: "Gene name", adjust: "data", hidden: true },
+                { id: "alias", map: "#data1#", header: "Gene ID", adjust: "data", hidden: true },
+                { id: "pubmed", map: "#data2#", header: "Paper", adjust: "data" },
+                { id: "secies", map: "#data3#", header: "Species", adjust: "data" },
+                { id: "i_type", map: "#data4#", header: "Interaction type", adjust: "data" },
+                { id: "methode", map: "#data5#", header: "Detection methode", adjust: "data" },
+                { id: "expression", map: "#data6#", header: "Tissue", adjust: "data" },
+                { id: "p_methods_a", map: "#data7#", header: "p_methods_a", adjust: "data", hidden: true },
+                { id: "p_methods_b", map: "#data8#", header: "p_methods_b", adjust: "data", hidden: true },
+                { id: "c_mechanism", map: "#data9#", header: "Causality mechanism", adjust: "data" },
+                { id: "sec_statementcies", map: "#data10#", header: "Causality statement", adjust: "data" }
+            ],
+            autoheight: true,
+            width: "100%",
+            scroll: "x",
+            datatype: "csv",
+            data: "ZMAT4,\x3ca href=\x22https:\/\/www.ensembl.org\/Homo_sapiens\/Gene\/Summary?db=core;g=ENSG00000165061\x22 target=\x22_blank\x22\x3eENSG00000165061\x3c\/a\x3e,\x3ca href=\x22https:\/\/www.ncbi.nlm.nih.gov\/pubmed\/22863008\x22 target=\x22_blank\x22\x3e\x3ci class=\x22fas fa-file\x22\x3e\x3c\/i\x3e\x3c\/a\x3e\x22,chromatin immunoprecipitation assay,direct interaction,breast epithelium, HME1 cell,nucleotide sequence identification,nucleotide sequence identification,transcriptional regulation,",
+            hover: "browse_row_hover"
+        })
+    });
+</script>
+<footer class="footer">
+    
+
+    <address class="footer__contact">
+        
+
+        
+
+        
+
+        
+    </address>
+
+    <div class="copy">
+        
+        <p>© 2019 - HSF1base</p>
+        
+    </div>
+
+    
+
+
+
+
+<script src="https://HSF1base.org/js/bundle.min.243a483d5297388ef2f4a1b2d5e5d30218e01e8a2dfe213a376ea24d130837c860762a23e9daaa68ae3a7bcd5a3869287a14dc3b738f10486cf4e8fb4291b478.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+     
+    webix.ready(function () {
+        grid = webix.ui({
+            container: "browse_targets",
+            view: "datatable", css: "webix_header_border",
+            columns: [
+                { id: "alias", map: "#data1#", header: ["Target name", { content: "textFilter" }], sort: "string", adjust: "data" },
+                { id: "evidencenum", map: "#data2#", header: ["Number of", "evidences"], sort: "int", adjust: "header" },
+                { id: "secies", map: "#data3#", header: ["Species", { content: "selectFilter" }], width: 80, sort: "string", tooltip: "", adjust: "data" },
+                { id: "taxid", map: "#data4#", hidden: true },
+                { id: "geneid", map: "#data5#", hidden: true }
+            ],
+            autoheight: true,
+            autowidth: true,
+            datatype: "csv",
+            url: "https://HSF1base.org/data/browse.csv",
+            hover: "browse_row_hover",
+            on: {
+                "onItemClick": function (id, e, trg) {
+                    window.location.href = "https://HSF1base.org/" + "target/" + grid.getItem(id.row).geneid.toLowerCase() + "/"
+                },
+                onMouseMoving:function(event){
+                    try{
+                        var row = this.locate(event).row;
+                        if (row != this.last_used_row)
+                        this.removeRowCss(this.last_used_row, "browse_targets_hover");
+                        this.addRowCss(row, "browse_targets_hover");
+                        this.last_used_row = row;
+                    }catch(ex){}
+                },
+            },
+            onMouseMove:{},
+            pager: {
+                template: "{common.prev()}{common.next()}Page {common.page()} from #limit#",
+                container: "browse_targets_pager",
+                size: 25,
+                group: 5
+            }
+        })
+    });
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73347324-5"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-73347324-5');
+</script>
+
+
+
+
+
+
+
+<script
+	defer
+	src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5&#43;&#43;eIfzYmTgBBmXYdhvxPc&#43;XcFEk&#43;zJwDgWbP"
+	crossorigin="anonymous"
+></script>
+
+</footer></body>
+
+</html>
