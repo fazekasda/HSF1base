@@ -32,5 +32,14 @@ Dániel Kovács 1,*, Tímea Sigmond 1,*, Bernadette Hotzi 1,*, Balázs Bohár 1,
       <description>  </description>
     </item>
     
+    <item>
+      <title>Download</title>
+      <link>https://HSF1base.org/download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://HSF1base.org/download/</guid>
+      <description>All species:  MS Excel (xlsx) PSI MI TAB 2.8 (tab)  Species specific targets:  Homo sapiens:  MS Excel (xlsx) PSI MI TAB 2.8 (tab)  Mus musculus:  MS Excel (xlsx) PSI MI TAB 2.8 (tab)  Rattus norvegicus:  MS Excel (xlsx) PSI MI TAB 2.8 (tab)  Drosophila melanogaster:  MS Excel (xlsx) PSI MI TAB 2.8 (tab)  Saccharomyces cerevisiae:  MS Excel (xlsx) PSI MI TAB 2.</description>
+    </item>
+    
   </channel>
 </rss>
